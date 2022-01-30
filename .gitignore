@@ -1,0 +1,6 @@
+/deps/
+/test/lua/
+/doc/tags
+.clj-kondo
+.envrc
+.lsp
