@@ -10,7 +10,7 @@ compile:
 	deps/aniseed/scripts/compile.sh
 
 	# Remove this if you only want Aniseed at compile time.
-	deps/aniseed/scripts/embed.sh aniseed nvim-printer
+	# deps/aniseed/scripts/embed.sh aniseed nvim-printer
 
 test:
 	rm -rf test/lua
