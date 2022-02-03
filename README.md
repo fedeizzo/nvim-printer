@@ -8,28 +8,7 @@ It helps the development printing to the standard output the variable under the 
 The starting and ending positions (row, col) of the variable are obtained using [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
 The final position of the plugin's output is also obtained with treesitter according to the current indentation of the file. 
 
-WIP: GIF for demonstration
-
-```python
-def my_function(a, b):
-    c = {
-        'd': [1,2,3,4]
-        'e': 'my_string'
-    }
-    my_other_function(c['d']['e'])
-    #     ^
-    #     | with cursor here
-    print(f'my_other_function(c[\'d\'][\'e\']: {my_other_function(c[\'d\'][\'e\']}')
-    #                 ^
-    #                 | with cursor here (on c)
-    print(f'c: {c}')
-    #                    ^
-    #                    | with cursor here (on d)
-    print(f'c[\'d\']: {c[\'d\']}')
-    #                         ^
-    #                         | with cursor here (on e)
-    print(f'c[\'d\'][\'e\']: {c[\'d\'][\'e\']}')
-```
+![GIF demo](./assets/nvim-printer_demo.gif)
 
 ## Installation
 ### Packer
