@@ -98,7 +98,7 @@ packer {
 - [ ] pioasm
 - [ ] prisma
 - [ ] pug
-- [ ] python (WIP)
+- [x] python
 - [ ] ql
 - [ ] Tree-sitter query language
 - [ ] r
